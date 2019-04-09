@@ -1,0 +1,65 @@
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #ffeead;
+
+}
+
+html, body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+  margin: 0px;
+  background-image: url(shoe.png);
+    animation: fadeInRight 3s;
+}
+
+h1{
+font-size: 1.4em;
+padding-bottom: 550px;
+font-family: 'Poppins', sans-serif;	
+color: #f1f3cd;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;	
+  color: #f1f3cd;
+  padding-right: 90px;
+}
+
+.container > div:nth-child(1n) {
+  background-color: #100830;	
+}
+
+.container > div:nth-child(3n) {
+  background-color: #100830;
+}
+
+.container > div:nth-child(2n) {
+  background-color: #170c44;
+}
+
+.container > div:nth-child(4n) {
+  background-color: #ffcc5c;
+}
+
+@media(max-width: 600px)
+{
+  p{
+  font-size:0.8em;
+  }
+  @media(max-width: 1000px)
+{
+  p{
+  font-size:.6em;
+  }
+  @media(max-width: 700px)
+{
+  p{
+  font-size:0.6em;
+  }
+
+
+
